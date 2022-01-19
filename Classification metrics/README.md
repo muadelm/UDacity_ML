@@ -1,17 +1,20 @@
-#Classification Metrics
+# Classification Metrics
 
 **Precision**
+
 Precision focuses on the predicted "positive" values in your dataset. By optimizing based on precision values,
 you are determining if you are doing a good job of predicting the positive values, as compared to predicting negative values as positive.
 Precision = TP/(TP+FP)
 
 **Recall**
+
 Recall focuses on the actual "positive" values in your dataset. By optimizing based on recall values, 
 you are determining if you are doing a good job of predicting the positive values without regard to how you are doing on the actual negative values. 
 If you want to perform something similar to recall on the actual 'negative' values, this is called specificity (TN / (TN + FP)).
 Recall = TP/(TP+FN)
 
 **F1-score**
+
 Averaging precision and recall
 The medical model has a precision of 55.7 % and a recall of 83.3%. It's supposed to be a high-recall model.
 The spam detector has a precision of 76.9 % and a recall of 37%. It's supposed to be a high-precision model.
@@ -23,7 +26,7 @@ On the left, we get 69.5 percent.
 On the right, we get 56.95 percent.
 And that's an okay metric, but not very different than accuracy. The way to see how this average is not the best idea is to try it in the extreme example.
 
-Averaging conclusion
+`Averaging conclusion`
 Averaging is not the greatest thing in principle if either precision or recall is very low. We want the number to be low even if the other one is high.
 
 That is why Harmonic Average is best.
