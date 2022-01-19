@@ -29,7 +29,7 @@ And that's an okay metric, but not very different than accuracy. The way to see 
 `Averaging conclusion`
 Averaging is not the greatest thing in principle if either precision or recall is very low. We want the number to be low even if the other one is high.
 
-That is why Harmonic Average is best.
+That is why `Harmonic Average` is best.
 
 If the precision is one and the recall is zero, the average is 0.5, but the harmonic mean is, if we plug in the formula, zero. Another example, 
 if the precision is 0.2 and the recall is 0.8, then the arithmetic mean is 0.5, but the harmonic mean is 0.32. So it's closer to the lower number.
